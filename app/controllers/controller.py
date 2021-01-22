@@ -5,10 +5,14 @@ from app.models.game import Game
 
 @app.route('/')
 def index():
-    return render_template('index.html', title='RockPaperScissors')
+    return render_template('base.html', title='RockPaperScissors')
 
 # @app.route('/', methods=['POST'])
 # def play():
+
+@app.route('/welcome')
+def welcome_page():
+    return render_template('rules.html', title = 'RockPaperScissors')
 
 @app.route('/<player_1_choice>/<player_2_choice>')
 def play(player_1_choice, player_2_choice):
