@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+body > header {
+    background-color: #f76565;
+    padding: 10px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-align:center;
+}
+
+body > header > nav > ul >li {
+    display:inline;
+    font-size: 20px;
+    margin: 5px;
+}
+
+a {
+    color:white;
+}

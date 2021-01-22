@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <title>{{ title }}</title>
 </head>
 <body>
     <header>
+        <img class=logo src="../static/css/logo.png" alt="logo">
         <nav>
             <ul>
+                <li class="navLink"><a href="/">Home</a></li>
                 <li class="navLink"><a href="/welcome">Rules</a></li>
-            </ul>
+                </ul>
         </nav>
     </header>
-    <hr>
     <main>
-        {% block content %}{% endblock %}
+        
 
+        {% block content %}{% endblock %}
+        
     </main>
     <footer></footer>
 </body>
