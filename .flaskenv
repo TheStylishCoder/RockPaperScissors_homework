@@ -1,0 +1,2 @@
+FLASK_APP=game_page.py
+FLASK_ENV=development
