@@ -16,13 +16,12 @@ body > header {
 
 body > header > nav > ul {
     list-style: none;
-    text-align:center;
 }
 
 body > header > nav > ul >li {
     display:inline;
     font-size: 20px;
-    margin: 5px;
+    margin-right: 20px;
 }
 
 a {
@@ -33,7 +32,30 @@ a {
     margin: 30px;
 }
 
+.welcome {
+    text-align: center;
+}
 
+.content p {
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.button a {
+    background: #f76565;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 29px;
+    padding: 5px 5px;
+    display: inline;
+    margin-right: 20px;
+}
 
 
 .footer {

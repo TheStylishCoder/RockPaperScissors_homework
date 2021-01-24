@@ -1,9 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h2>Rock Paper Scissors</h2>
-    <p>Player 1 chose:{{ player1.choice }}</p>
-    <p>Player 2 chose:{{ player2.choice }}</p>
-    <p>The result is:{{ result }}</p>
+<div class="welcome">
+    <h2>Welcome to Rock Paper Scissors!</h2>
+    <p>This is an online version of the classic game where you have the option to play against a friend or challenge the computer.</p>
+    <br>
+    <p>If you want to look over the rules then click the link in the header.</p>
+</div>
+<br>
+<br>
+<br>
+<div class="button">
+    <a href="/play">Play Against Computer</a>
+    <a href="/play2">Play Against A Friend</a>
+</div>
+<br>
+<br>
+<br>
+
+
+
 {% endblock %}
     
