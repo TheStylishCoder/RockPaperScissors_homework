@@ -28,3 +28,20 @@ body > header > nav > ul >li {
 a {
     color:white;
 }
+
+.content {
+    margin: 30px;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f76565;
+    padding: 20px;
+}
+
